@@ -1,0 +1,10 @@
+a = int(input("enter num1\n"))
+b = int(input("enter num2\n"))
+
+print("addition : ",a+b)
+print("substraction : ",a-b)
+print("multiplication : ",a*b)
+print("division : ",a/b)
+print("floor division : ",a//b)
+print("type of a ",type(a))
+print("type of b ",type(b))
