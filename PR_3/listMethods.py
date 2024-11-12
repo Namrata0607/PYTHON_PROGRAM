@@ -11,17 +11,15 @@ print("list after append : ",ls)
 ls.insert(2,"Daphale")
 print("list after insert : ",ls)
 
-ls.remove(2)
+ls.remove(66)
 print("list after remove : ",ls)
 
 ls.pop()
 print("list after pop : ",ls)
 
-ls.count(62)
-print("list count function : ",ls)
+ls.count(66)
+print("list count function : ",ls.count(66))
 
 ls1 = [10,50,10.50,40.60,30,20]
 ls1.sort()
 print("list after sort : ",ls1)
-
-

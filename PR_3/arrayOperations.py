@@ -28,6 +28,6 @@ while(b!=0) :
 		i = int(input("\nenter number you want to remove : "))
 		a.remove(i)
 		print("\narray after remove an element : ",a)
-		
+		1
 	elif(ch == 4) :
 		b = 0

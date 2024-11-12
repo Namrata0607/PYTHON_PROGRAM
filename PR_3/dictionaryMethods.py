@@ -1,6 +1,6 @@
 print("Dictionary Methods")
 
-dc = {"nm" : "Namrata","lm" : "Daphale", "age" : 20 , "clg":"DYPCET" }
+dc = {"nm" : "Namrata","lm" : "Daphale", "age" : 20 , "clg":"DYPCET" , "dep":"mech" }
 print(dc)
 
 print("length : ",len(dc))
@@ -11,7 +11,7 @@ print("keys function : ",dc.keys())
 
 print("values function : ",dc.values())
 
-dc.update({"age": 20})
+dc.update({"age": 22})
 print("update function : ",dc)
 
 print("pop function : ",dc.pop("age"))
